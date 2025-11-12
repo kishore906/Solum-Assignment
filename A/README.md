@@ -1,8 +1,6 @@
 # Java Program
 
-This repository contains simple Java programs written and executed using **IntelliJ IDEA**, but they can also be run using **Eclipse** or the **Command Line**.
-
-Each program demonstrates fundamental Java concepts such as loops, conditionals, OOP, collections, and file handling.
+This repository contains Java program written and executed using **IntelliJ IDEA**, but they can also be run using **Eclipse** or the **Command Line**.
 
 ---
 
@@ -45,7 +43,7 @@ Each program demonstrates fundamental Java concepts such as loops, conditionals,
 
 ```
 cd path/to/java/file # cd A
-javac ProgramName.java
-java ProgramName
+javac MysticWaves.java
+java MysticWaves
 
 ```
