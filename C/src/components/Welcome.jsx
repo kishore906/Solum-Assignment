@@ -1,0 +1,14 @@
+const Welcome = ({ onLogout, userEmail }) => {
+  return (
+    <div>
+      <div className="welcome_msg">
+        <i>👋</i> <span>Welcome, {userEmail}!</span>
+      </div>
+      <button className="btn logout" onClick={() => onLogout()}>
+        Logout
+      </button>
+    </div>
+  );
+};
+
+export default Welcome;
