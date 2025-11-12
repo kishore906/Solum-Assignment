@@ -1,6 +1,6 @@
 # Java Program
 
-This repository contains Java program written and executed using **IntelliJ IDEA**, but they can also be run using **Eclipse** or the **Command Line**.
+This folder contains Java program written and executed using **IntelliJ IDEA**, but they can also be run using **Eclipse** or the **Command Line**.
 
 ---
 

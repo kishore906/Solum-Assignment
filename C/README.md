@@ -44,7 +44,7 @@ vite-react-form-validation/\
 
 ### Clone the Repository
 
-git clone <url of the repository>
+git clone <url-of-the-repository>
 
 ### Navigate into the Project Folder
 
