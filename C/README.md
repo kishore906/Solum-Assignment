@@ -44,7 +44,7 @@ vite-react-form-validation/\
 
 ### Clone the Repository
 
-git clone <url-of-the-repository>
+git clone https://github.com/kishore906/Solum-Assignment.git
 
 ### Navigate into the Project Folder
 
