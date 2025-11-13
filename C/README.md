@@ -1,7 +1,7 @@
 # React Form Validation And Login App (Vite)
 
 A simple and responsive **React + Vite** application demonstrating form validation and user login functionality.  
-The project includes a sample user data file (`utils/user.js`) for testing login verification.
+The project includes a sample user data file (`utils/users.js`) for testing login verification.
 
 ---
 
@@ -35,7 +35,7 @@ vite-react-form-validation/\
 ├── src/\
 │ ├── components/\
 │ ├── utils/\
-│ │ └── user.js # Sample users data\
+│ │ └── users.js # Sample users data\
 │ ├── App.jsx\
 │ ├── main.jsx\
 │ └── index.css\
@@ -65,5 +65,5 @@ http://localhost:5173/
 ### Test Login Credentials
 
 You can find sample user credentials inside:\
-src/utils.user.js\
+src/utils.users.js\
 Use these credentials in the login form to test validation and verification
