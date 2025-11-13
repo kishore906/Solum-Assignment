@@ -30,7 +30,7 @@ Follow these steps to clone and run the app locally
 
 ### Project Structure
 
-vite-react-form-validation/\
+C/\
 ├── public/\
 ├── src/\
 │ ├── components/\
