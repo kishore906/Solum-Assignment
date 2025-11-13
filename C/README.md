@@ -24,6 +24,12 @@ The project includes a sample user data file (`utils/users.js`) for testing logi
 
 ---
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en/download)
+- [VS Code Edior](https://code.visualstudio.com/download)
+- or any code editor
+
 ## Getting Started
 
 Follow these steps to clone and run the app locally
