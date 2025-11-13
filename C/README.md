@@ -64,6 +64,6 @@ http://localhost:5173/
 
 ### Test Login Credentials
 
-You can find sample user credentials inside:\
+You can find sample users credentials inside:\
 src/utils.users.js\
 Use these credentials in the login form to test validation and verification
