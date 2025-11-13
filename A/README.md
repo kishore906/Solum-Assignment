@@ -11,7 +11,7 @@ This folder contains Java program written and executed using **IntelliJ IDEA**, 
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
   - [Eclipse](https://www.eclipse.org/downloads/)
   - or simply the **Java command line tools**
-- Works on **Windows**, **macOS**, and **Linux**
+- Works on **Windows**, **macOS**
 
 ---
 
