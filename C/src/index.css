@@ -11,10 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("body-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #f8f4ec;
 }
 
 /* Login form container */
@@ -188,6 +185,13 @@ a:hover {
   text-align: center;
 }
 
+/* Welcome msg container */
+.welcomeMsg-container {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
 /* Welcome message */
 .welcome_msg {
   margin-bottom: 25px;
@@ -242,5 +246,17 @@ a:hover {
 
   .input-div > div h5 {
     font-size: 16px;
+  }
+
+  .welcome_msg i {
+    font-size: 35px;
+  }
+
+  .welcome_msg span {
+    font-size: 25px;
+  }
+
+  .btn.logout {
+    padding: 12px;
   }
 }

@@ -1,6 +1,6 @@
 const Welcome = ({ onLogout, userEmail }) => {
   return (
-    <div>
+    <div className="welcomeMsg-container">
       <div className="welcome_msg">
         <i>👋</i> <span>Welcome, {userEmail}!</span>
       </div>
