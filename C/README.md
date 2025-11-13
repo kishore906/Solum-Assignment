@@ -48,7 +48,7 @@ git clone https://github.com/kishore906/Solum-Assignment.git
 
 ### Navigate into the Project Folder
 
-cd <folder-name (which is C folder)>
+cd <folder-name (which is C folder)> # cd C
 
 ### Install Dependencies
 
