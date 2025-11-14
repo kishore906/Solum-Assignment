@@ -3,19 +3,26 @@ import Login from "./components/LoginForm";
 import Welcome from "./components/Welcome";
 
 function App() {
-  const [userEmail, setUserEmail] = useState("");
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // Load user email if previously logged In
+  const [userEmail, setUserEmail] = useState(() => {
+    return localStorage.getItem("userEmail") || "";
+  });
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    return !!localStorage.getItem("userEmail");
+  });
 
   // Function that handles login success
   const handleLoginSuccess = (email) => {
     setIsLoggedIn(true);
     setUserEmail(email);
+    localStorage.setItem("userEmail", email); // save user email
   };
 
   // function that handles logout
   const handleLogout = () => {
     setIsLoggedIn(false);
     setUserEmail("");
+    localStorage.removeItem("userEmail"); // clear storage
   };
 
   // useEffect to handle 'focus' class
