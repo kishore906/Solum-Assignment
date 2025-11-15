@@ -209,6 +209,7 @@ a:hover {
   font-size: 35px;
   font-weight: 600;
   color: #473472;
+  font-style: italic;
 }
 
 @keyframes wave {
@@ -258,5 +259,11 @@ a:hover {
 
   .btn.logout {
     padding: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome_msg span {
+    font-size: 30px;
   }
 }
